@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 module "VPC1" {
-#source = "github.com/mavrick202/terraform-aws-basicinfra.git"
+#source = "github.com/rahulsaikasarla/terraform-aws-module-basicinfra.git"
 #source = "./modules"
 vpc_cidr = "10.1.0.0/16"
 public_subnet1_cidr = "10.1.1.0/24"
